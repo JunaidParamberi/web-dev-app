@@ -22,7 +22,7 @@ export default function Navbar(){
     return(
         <>
         <nav className=" navbar-container">
-        <NavLink to = '/'>
+        <NavLink to = '/web-dev-app/'>
         <img src={logoBlack} alt="logo" />
         </NavLink>
         <div className="menu">
