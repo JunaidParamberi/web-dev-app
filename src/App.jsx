@@ -21,7 +21,7 @@ function App() {
   <>
  
      <div className="container" >
-  <Navbar/>
+  {/* <Navbar/> */}
   
  <Routes>
   

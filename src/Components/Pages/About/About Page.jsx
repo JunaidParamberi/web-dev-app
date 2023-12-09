@@ -3,6 +3,7 @@ import heroImage2 from "/src/Components/Images/hero-image-2.jpeg";
 import Contact from '../../Contact/Contact';
 import "./About Page.css"
 import Clients from '../../Clients/Clients';
+import Navbar from '../../Navbar/Navbar';
 
 
 
@@ -11,6 +12,7 @@ function About() {
     
   return (
     <>
+    <Navbar/>
     <div className="about-me-page-container">
       <div className="about-me-container">
         <div className="text">

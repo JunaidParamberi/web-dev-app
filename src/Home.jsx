@@ -26,7 +26,7 @@ function Home() {
   <div className='App'>
     <div className="container">
 
-      {/* <Navbar/> */}
+      <Navbar/>
       
       <Hero/>
       <Intro/>
