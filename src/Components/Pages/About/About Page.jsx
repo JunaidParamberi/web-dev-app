@@ -2,6 +2,7 @@ import React from 'react'
 import heroImage2 from "/src/Components/Images/hero-image-2.jpeg";
 import Contact from '../../Contact/Contact';
 import "./About Page.css"
+import Clients from '../../Clients/Clients';
 
 
 
@@ -38,6 +39,7 @@ function About() {
 
 
     </div>
+    <Clients/>
     <Contact/>
     </>
   )

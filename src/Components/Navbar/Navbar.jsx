@@ -53,8 +53,7 @@ export default function Navbar(){
             <div className={displeyMenuToggle}></div>
         </div>
         <div className="navbar-collaps-after" onClick={menuToggleSwitch}>
-            <div className= {menuToglle ?"menu-icon-open-slop": ""} 
-            id="slop1"></div>
+            <div className= {menuToglle ?"menu-icon-open-slop": ""} id="slop1"></div>
             <div className={menuToglle ?"menu-icon-open-slop": ""}  id= "slop2" ></div>
         </div>
         </nav>

@@ -1,15 +1,16 @@
 .container .navbar-container{
-    padding: 30px 150px;
+    padding: 10px 150px;
     color: white;
     display: flex;
     justify-content: space-between;
-    /* background-color: rgba(16, 16, 30, 0.65); */
-    backdrop-filter: blur(10px);
+    background-color: rgba(16, 16, 30, 1);
+    backdrop-filter: blur(5px);
     align-items: center;
     user-select: none;
     position: sticky;
     z-index: 1000;
     overflow: hidden;
+    top: 0px;
     
 }
 
@@ -123,6 +124,7 @@
         position: absolute;
         width: 100%;
         backdrop-filter: blur(0);
+        background-color: rgba(16, 16, 30, 0);
         
         
     }
