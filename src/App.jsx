@@ -26,7 +26,7 @@ function App() {
  <Routes>
   
   {/* <Route exact path='/portfolio/' element={<Home/>}></Route> */}
-  <Route path='/web-dev-app/' element={<Home/>}></Route>
+  <Route path='/' element={<Home/>}></Route>
   <Route exact path='/about'  element={<About/>}></Route>
   <Route exact path='/projects' element={<Projects/>}></Route>
   <Route exact path='/contact me' element={<Contact/>}></Route>
