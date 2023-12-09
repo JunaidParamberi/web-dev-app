@@ -8,6 +8,7 @@ import Contact from './Components/Contact/Contact'
 import './App.css'
 import Home from './Home'
 import Footer from './Components/footer/Footer'
+ 
 
 
 
@@ -19,22 +20,18 @@ function App() {
 
   return (
   <>
- 
-     <div className="container" >
+     <div className="container">
   <Navbar/>
-  
  <Routes>
-  
-  {/* <Route exact path='/portfolio/' element={<Home/>}></Route> */}
-  <Route path='/portfolio/' element={<Home/>}></Route>
-  <Route exact path='/about'  element={<About/>}></Route>
-  <Route exact path='/projects' element={<Projects/>}></Route>
-  <Route exact path='/contact me' element={<Contact/>}></Route>
+  <Route path='/' element={<Home/>}></Route>
+  <Route path='/about'  element={<About/>}></Route>
+  <Route path='/projects' element={<Projects/>}></Route>
+  <Route path='/contact me' element={<Contact/>}></Route>
 
   </Routes>
-  <Footer/>
+
   </div>
-  
+  <Footer/>
   </>
   )
 }
