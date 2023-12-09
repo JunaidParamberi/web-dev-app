@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Space Grotesk', sans-serif;
+    box-sizing: border-box;
+    color: white;
+    scroll-behavior: smooth;
+    
+
+}
+
+
+
+body{
+    background: #10101E;
+    
+}
+.project-component{
+    padding: 10px 150px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+  
+    
+    
+}
+
+.project-component h6{
+    text-align: center;
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64.406px; /* 128.812% */
+    letter-spacing: -1.25px;
+}
+
+.project-cards-all{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    flex-wrap: wrap ;
+    overflow: scroll;
+    margin-top: 0px;
+    
+}
+
+
+
+.vector-bg{
+    width: 482px;
+    height: 285px;
+    flex-shrink: 0;
+    filter: blur(42.5px);
+    z-index: 0;
+    position: absolute;
+   margin: 0px 10px;
+    right: 30px;
+    /* margin-top: 519px; */
+}
+
+
+
+@media screen and (max-width:720px){
+
+.project-component{
+    padding: 10px 20px ;
+    gap: 0px;
+    margin-bottom: 30px ;
+}
+
+
+
+.vector-elements{
+    width: 100px;
+}
+
+.project-cards-all{
+    flex-direction: column;
+    gap: 0px;
+}
+
+.project-component h6{
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64.406px; /* 128.812% */
+    letter-spacing: -1.25px;
+}
+
+
+}
+

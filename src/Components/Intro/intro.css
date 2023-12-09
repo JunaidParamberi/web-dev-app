@@ -1,0 +1,237 @@
+.intro-container{
+    padding: 80px 150px;
+    overflow: hidden;
+}
+
+.intro-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-container .intro-text h2{
+    color: #979797;
+    font-size: 16.042px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.401px;
+    
+    }
+
+.intro-container .intro-text{
+    height: fit-content;
+}
+
+.intro-container .intro-text h1{
+    color: #FFF;
+    font-size: 42.906px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45.4px; /* 124.459% */
+    letter-spacing: -1.073px;
+}
+
+.intro-container .intro-text p{
+    max-width: 596px;
+    color: #949686;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.242px;
+    margin-top: 10px;
+}
+
+.intro-container .vector-elements{
+    width: 198px;
+    height: 198px;
+    flex-shrink: 0;
+    filter: blur(42.5px);
+    z-index: 0;
+    position: absolute;
+}
+
+.intro-container .icon{
+    width: 41px;
+    height: 41px;
+    flex-shrink: 0;
+}
+
+.intro-container .skill-background{
+    width: 348px;
+    height: 221px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #0F2F76;
+    opacity: 0.9;
+    background: #0F172A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.skill-background h1{
+    color: #949494;
+    font-size: 27.064px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40.625px; /* 150.11% */
+    letter-spacing: -0.677px;
+    margin-top: 20px;
+    margin-left: 27px;
+}
+
+.skill-background .logos{
+    display: flex;
+    gap: 10px;
+    margin-top: 26px;
+    margin-left: 27px;
+    position: absolute;
+    
+}
+
+
+.git-repo{
+    width: 407px;
+    height: 219px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #475569;
+    background: #0D1117;
+    position: absolute;
+    right: 0px;
+    margin-top: -300px;
+    z-index: -1;
+}
+
+.git-repo h1{
+    color: #4DA1F4;
+    font-family: Open Sans;
+    font-size: 15.006px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.678px; /* 124.472% */
+    letter-spacing: -0.375px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.git-repo .git-model{
+    display: flex;
+    gap: 7px;
+}
+
+.git-model .rectangles{
+    width: 31.234px;
+    height: 11.622px;
+    flex-shrink: 0;
+    margin-top: 32px;
+}
+.git-model .grey-bg{
+    border-radius: 2.179px;
+    border: 0.363px solid #475569;
+    background: #21262D;
+}
+
+.git-model .rectangle4{
+    border-radius: 2.179px;
+    border: 0.363px solid #6C96F2;
+    background: #1F6FEB;
+}
+
+.git-model .rectangle1{
+    margin-right: 184px;
+}
+
+.git-model {
+    padding: 0px 25px;
+}
+
+.git-model-list .model-list1{
+    width: 326.503px;
+    height: 14.164px;
+    flex-shrink: 0;
+    border-radius: 3.632px 3.632px 0px 0px;
+    background: #161B22;
+    margin-left: 29px;
+    margin-top: 6px;
+}
+
+.git-model-list .model-list2{
+    width: 327.229px;
+    height: 131.09px;
+    flex-shrink: 0;
+    border-radius: 3.632px;
+    border: 0.363px solid #30363D;
+    background: #0D1117;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 29px;
+    z-index: -1;
+}
+
+.git-animation-icon{
+    right: 20px;
+    position: absolute;
+    z-index: -3;
+    margin-top: -70px;
+}
+
+/* .intro-link-contents .mouse-icon{
+    z-index: 10;
+    position: absolute;
+    right: 484px;
+    top: 687px;
+}
+     */
+
+     @media screen and (max-width:720px){
+        .intro-container{
+            padding: 10px 40px;
+            margin-top: 80px
+        
+        }
+
+        .intro-section{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .intro-container .intro-text h1{
+            color: #FFF;
+            font-size: 2.3em;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30.4px; /* 124.459% */
+            letter-spacing: -1.073px;
+        }
+        
+        .intro-container .intro-text p{
+            max-width: 400px;
+            color: #949686;
+            font-size: 1.2em;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25.242px;
+            margin-top: 10px;
+        }
+        
+        .intro-container .skill-background{
+           margin-top: 70px;
+        }
+        
+        .git-animation-icon{
+           
+            margin-top: 300px;
+        }
+
+        .intro-container .vector-elements svg{
+            width: 190px;
+            height: 190px;
+            flex-shrink: 0;
+            /* filter: blur(42.5px);
+            z-index: 0;
+            position: absolute; */
+        }
+        
+
+        
+     }
+

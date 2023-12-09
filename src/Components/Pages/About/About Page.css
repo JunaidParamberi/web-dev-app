@@ -1,0 +1,100 @@
+
+.about-me-page-container{
+
+    padding: 70px 150px;
+    margin-bottom: 30px;
+    font-family: "Space Grotesk";
+    
+   
+}
+
+.about-me-container{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border-radius: 20px;
+    align-items: center;
+   
+}
+
+
+.about-me-page-container .text .heading-text{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    align-items: flex-end;
+}
+
+.about-me-page-container .text h1{
+    font-size: 50px;
+    font-family: "Space Grotesk";
+}
+
+.about-me-page-container .text h2{
+    font-size: 50px;
+    color: #DBFF00;
+    font-family: "Space Grotesk";
+}
+
+.about-me-page-container .text p{
+    color: #bebfb2;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 24px; /* 117.704% */
+    transition: 0.3s;
+}
+
+.about-me-page-container .text{
+    max-width: 616px;
+}
+
+.about-me-page-container img{
+    width: 350px;
+    border-radius: 40px;
+    transition: 0.3s;
+    box-shadow: -10px 10px 1px rgba(219, 255, 0, 0.6);
+
+}
+
+
+.about-me-image-part img:hover {
+    box-shadow: -10px 10px 0px #DBFF00;
+    transition: 0.3s;
+   
+}
+
+@media screen and (max-width:720px){
+    .about-me-page-container{
+        padding: 20px 25px;
+        
+    }
+
+    .about-me-page-container .text h1{
+        font-size: 35px;
+    }
+
+
+    .about-me-page-container .text h2{
+        font-size: 35px;
+    }
+    .about-me-page-container .text p{
+        font-size: 17px;
+        line-height: 15px;
+    }
+
+
+    .about-me-container{
+        flex-direction: column;
+        margin-top: 120px;
+    }
+
+    .about-me-container .text {
+        margin-bottom: 50px;
+    }
+    .about-me-page-container img{
+        width: 300px;
+    }
+}

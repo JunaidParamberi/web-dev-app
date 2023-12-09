@@ -1,0 +1,181 @@
+.clients{
+    padding: 40px 150px;
+   
+}
+
+.clients .clients-container .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+
+.clients-container .text h1{
+    max-width: 373px;
+    color: #FFF;
+
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48.242px; /* 96.483% */
+    letter-spacing: -1.25px;
+}
+
+.clients-container .text p{
+    max-width: 561px;
+    color: #949686;
+    
+    font-size: 25.242px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 33.242px; /* 117.704% */
+    text-align: start;
+}
+
+.clients-container .client-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 70px 0px;
+    gap: 30px;
+    padding: 0px;
+    width: 100%;
+    
+   
+
+}
+
+
+
+.clients-container .client-logos .logo{
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.clients-container .client-logos .almadina{
+    width: 100px;
+    /* margin-bottom: 10px; */
+}
+
+.clients-container .client-logos .reehyn{
+    width: 150px;
+    /* margin-bottom: 10px; */
+}
+
+
+/* .windowline-one{
+    margin-top: 10px;
+} */
+.client-logos h3{
+    font-size: 35.2px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -2.64px;
+    opacity: 0.6;
+}
+
+.you-are-next{
+    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.you-are-next img {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.you-are-next:hover {
+    transform: translateX(10px) ;
+    transition: 0.3s ease-in-out;
+}
+
+.client-info{
+    justify-content: flex-start;
+    display: flex;
+}
+
+
+@media screen and (max-width:720px){
+    .clients{
+        padding: 10px 0px;
+        margin-top: 40px;
+        
+    }
+
+    .clients .clients-container .text{
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px 20px;
+        max-width: 400px;
+
+    }
+
+
+
+
+    .clients-container .text h1{
+        
+       font-size:35px ;
+    }
+    
+    .clients-container .text p{
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    .clients-container .client-logos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 0px;
+        gap: 20px;
+        padding: 0px;
+        width: 100%;
+        overflow: scroll;
+        flex-wrap: nowrap;
+        scrollbar-width: thin;
+        scrollbar-track-color: #FFF;
+       
+    
+    }
+
+    .clients-container .client-logos .logo{
+        width: 150px;
+        flex-shrink: 0;
+    }
+
+    .client-logos h3{
+        font-size: 23.2px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: -2.64px;
+        opacity: 0.6;
+    }
+
+
+.you-are-next img {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+}
+
+.you-are-next{
+    
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+
+.clients-container .client-logos .almadina{
+    
+    margin-bottom: 45px;
+    width: 100px;
+}
+
+
+    
+}
