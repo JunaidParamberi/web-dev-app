@@ -1,5 +1,6 @@
 .container .navbar-container{
     padding: 10px 150px;
+    padding-top: 20px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -16,7 +17,7 @@
 
 
 
-.navbar-container img{
+.navbar-container .logo{
     width: 110px ;
     
  }
@@ -115,7 +116,9 @@
 
 @media screen and (max-width:720px){
     .container .navbar-container{
-        padding: 30px 20px;
+        padding: 15px 20px;
+        padding-top: 30px;
+        margin-right: 10px;
         color: white;
         justify-content: space-between;
         display: flex;
@@ -124,10 +127,12 @@
         position: absolute;
         width: 100%;
         backdrop-filter: blur(0);
-        background-color: rgba(16, 16, 30, 0);
+        background-color: transparent;
         
-        
+    
     }
+
+
     .navbar-container .nav-menu{
         display: none;
     }
@@ -138,13 +143,19 @@
         opacity: 0.9;
         background: #0F172A;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        padding: 30px 20px;
+        padding: 50px 40px;
         gap: 30px;
-        margin-right: 60px;
+        margin-right: 10px;
+        margin-top: 70px;
         align-items: center;
-        transition: 0.3s;
+        transition: opacity 0.3s;
         right: 30px;
     
+    }
+
+    .navbar-container .nav-links .active{
+        transition: 0.10s;
+        opacity: 1;
     }
 
     .navbar-container .button{
@@ -173,10 +184,7 @@
         
     }
     
-    .menu-close{
-        display: none;
-    }
-
+    
     .navbar-collaps-after .menu-icon-open-slop{
         width: 30px;
         height: 1.5px;
@@ -201,10 +209,25 @@
         right: 40px;
         flex-direction: column;
         gap: 7px;
-        margin-top: 22px;
-        margin-right: 5px;
+        margin-top: 10px;
         cursor: pointer;
         position: absolute;
+    }
+
+    .hamburger-menu-open {
+        width: 45px;
+    }
+    .menu-close{
+        display: none;
+    }
+
+
+    .hamburger-menu-close{
+        width: 45px;
+    }
+    
+    .menu-circle-close{
+        display: none;
     }
     
 }

@@ -1,0 +1,11 @@
+.projects-part-container{
+    padding: 100px 150px ;
+}
+
+
+
+.projects-part-container iframe{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+}

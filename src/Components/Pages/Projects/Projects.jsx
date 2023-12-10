@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
+import "./Projects.css"
 
 function Projects() {
   return (
     <div>
       <Navbar/>
-      <h1>Projects</h1>
+      <div className="projects-part-container">
+   
+      </div>
     </div>
   )
 }

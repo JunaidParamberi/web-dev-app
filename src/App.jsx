@@ -11,6 +11,7 @@ import Footer from './Components/footer/Footer'
 
 
 
+
 function App() {
 
   
@@ -21,7 +22,7 @@ function App() {
   <>
  
      <div className="container" >
-  {/* <Navbar/> */}
+
   
  <Routes>
   

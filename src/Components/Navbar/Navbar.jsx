@@ -3,6 +3,8 @@ import { useState } from "react";
 import "./Navbar.css"
 import logoBlack from '../Images/Logo-blackmode.png';
 import { NavLink, Link } from "react-router-dom";
+import menuOppen from "../Images/menu-square.svg"
+import menuClosed from "../Images/menu-circle-closed.svg"
 
 
 
@@ -16,14 +18,15 @@ export default function Navbar(){
         
     }
 
-    const displeyMenuToggle = !menuToglle  ? "menu-icon-open" : " menu-close"
+    const displeyMenuToggle = !menuToglle  ? "": " menu-close"
+    const displeyMenuToggleClose = !menuToglle  ? "menu-circle-close": "hamburger-menu-close"
 
 
     return(
         <>
         <nav className=" navbar-container">
         <NavLink to = '/'>
-        <img src={logoBlack} alt="logo" />
+        <img className="logo" src={logoBlack} alt="logo" />
         </NavLink>
         <div className="menu">
             <ul className={menuToglle? "nav-links":"nav-menu"}>
@@ -47,14 +50,11 @@ export default function Navbar(){
         </div>
         
 
-        <div className={"navbar-collaps-befor"} onClick={menuToggleSwitch}>
-            <div className={displeyMenuToggle}></div>
-            <div className={displeyMenuToggle}></div>
-            <div className={displeyMenuToggle}></div>
+        <div className="navbar-collaps-befor menu-icon-open " onClick={menuToggleSwitch}>
+            <img className={`hamburger-menu-open ${displeyMenuToggle}`}src={menuOppen} alt="" />
         </div>
         <div className="navbar-collaps-after" onClick={menuToggleSwitch}>
-            <div className= {menuToglle ?"menu-icon-open-slop": ""} id="slop1"></div>
-            <div className={menuToglle ?"menu-icon-open-slop": ""}  id= "slop2" ></div>
+            <img className={displeyMenuToggleClose}src={menuClosed} alt="" />
         </div>
         </nav>
 
