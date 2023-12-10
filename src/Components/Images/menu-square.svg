@@ -1,8 +1,7 @@
-<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="square">
-<rect id="Rectangle 1" x="100" y="100" width="100" height="100" rx="20" transform="rotate(-180 100 100)" fill="#D9D9D9" fill-opacity="0.7"/>
-<path id="Vector 1" d="M73 66L27 66" stroke="black" stroke-width="5" stroke-linecap="round"/>
-<path id="Vector 2" d="M73 50L27 50" stroke="black" stroke-width="5" stroke-linecap="round"/>
-<path id="Vector 3" d="M73 34L27 34" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<svg width="68" height="49" viewBox="0 0 68 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2">
+<path id="Vector 1" d="M65 46L3.18749 46" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path id="Vector 2" d="M65 24.5L3.18749 24.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path id="Vector 3" d="M65 3L3.18749 3" stroke="white" stroke-width="5" stroke-linecap="round"/>
 </g>
 </svg>
