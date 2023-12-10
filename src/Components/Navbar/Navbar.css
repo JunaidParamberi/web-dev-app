@@ -216,7 +216,7 @@
 
     .hamburger-menu-open {
         width: 27px;
-        margin-top: 12px;
+        margin-top: 15px;
     }
     .menu-close{
         display: none;
@@ -224,8 +224,8 @@
 
 
     .hamburger-menu-close{
-        width: 23px;
-        margin-top: 10px;
+        width: 22px;
+        margin-top: 13px;
     }
     
     .menu-circle-close{
